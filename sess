@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mkdir ~/Desktop/Sessions/Session_$1;
+
+# touch ~/Desktop/Session_$1/script.js;
+# touch ~/Desktop/Session_$1/index.html;
+
+echo "<!DOCTYPE html>" > ~/Desktop/Sessions/Session_$1/index.html;
+echo "console.log(\"Hello World!\")" > ~/Desktop/Sessions/Session_$1/script.js;
+
+code ~/Desktop/Sessions/Session_$1;
