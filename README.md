@@ -5,7 +5,7 @@ This repository contains a bunch of bash scripts I created specifically for myse
 ## Scripts List
 
 ### sess
-Stands for "Session". Takes one argument, the number of the session. Creates a folder with the name "Session {number}" and in it creates two files:
+Stands for "Session". Takes one argument, the number of the session. Creates a folder with the name "Session_{number}" and in it creates two files:
 - index.html
 - script.js
 
